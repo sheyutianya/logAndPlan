@@ -615,9 +615,10 @@ done
 2014.6.3
 1、学会github for windows的使用   done
 2、晨间日记更新 done
-3、移植一个游戏项目到cocos2d-x 3.x   
+3、移植一个游戏项目到cocos2d-x 3.x   done
 3、建立一个以前游戏项目的github仓库 done
 
-
+2014.6.4
+1、整理一篇cocos2d-x 3.x的笔记
 
 
