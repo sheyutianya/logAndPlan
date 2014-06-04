@@ -619,6 +619,6 @@ done
 3、建立一个以前游戏项目的github仓库 done
 
 2014.6.4
-1、整理一篇cocos2d-x 3.x的笔记
-
+1、整理一篇cocos2d-x 3.x的笔记   done
+2、内存数据加密
 
