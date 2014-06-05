@@ -618,16 +618,42 @@ done
 3、移植一个游戏项目到cocos2d-x 3.x   done
 3、建立一个以前游戏项目的github仓库 done
 
-<<<<<<< HEAD
+
 plan AI blog
 
 2014.6.4
 1、apache 的关卡解析从新设计
 
-
-=======
 2014.6.4
 1、整理一篇cocos2d-x 3.x的笔记   done
 2、内存数据加密
->>>>>>> ebb1a13e535d9ebba4e080eaf8b56dced06ba4f0
+
+2014.6.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
