@@ -626,14 +626,17 @@ plan AI blog
 
 2014.6.4
 1、整理一篇cocos2d-x 3.x的笔记   done
-2、内存数据加密
+2、内存数据加密   done
 
 2014.6.5
 1、换装游戏框架建立  done
-2、轰炸僵尸github 仓库配置
+2、轰炸僵尸github 仓库配置  done
 
 2014.6.6
 1、衣物点击区域，数据加载
+
+2014.6.9
+1、找scrollView 的bug 
 
 
 
