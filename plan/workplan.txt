@@ -643,9 +643,12 @@ plan AI blog
 1、treadstar publish
 2、换装游戏回调  done
 
+2.14.6.23
 
+1、保存相册  done
 
-
+2014.6.25
+1、数据可视化编辑，自动生成  done
 
 
 
