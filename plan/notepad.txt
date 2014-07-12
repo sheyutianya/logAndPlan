@@ -1,4 +1,4 @@
-1、game AI blog
+﻿1、game AI blog
 2、add AD  done
 3、apache gate
 4、
