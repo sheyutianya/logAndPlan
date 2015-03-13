@@ -680,6 +680,54 @@ plan AI blog
 
 
 
+不同武器有不同的锁定范围与判定方式，怪物在主角的锁定区域时，主角自动转向怪物的方向进行攻击
+弓箭有一个矩形的锁定区域
+双刀有一个三角形的锁定区域
+
+
+
+2014.12.30
+1、伤害计算数值获取方式修改  done
+
+
+2015.1.5
+1、技能冷却 done
+
+
+
+
+http://www.unitymanual.com/5399.html
+
+
+
+\\10.10.1.20
+
+外网隐藏的 wify
+7Road-OUT
+WPA
+7road!@#$
+
+
+2015.01.15
+//服务器发送过来的信息
+int level = 30;
+m_Model.m_PlayerHero.V_ModelStyleId = 2;//玩家裸模使用信息
+            m_Model.V_MainWeapon.V_Id = 1;
+            m_Model.V_MainWeapon.V_ConfigId = 2;
+            m_Model.V_ViceWeapon.V_Id = 2;
+            m_Model.V_ViceWeapon.V_ConfigId = 3;
+
+            m_Model.V_Sex = EM_Player_Sex.Man;
+            m_Model.V_UseWeaponType = EM_UsedWeaponType.Vice;
+
+
+2015.3.9
+mini和4s分辨率适配问题
+
+
+
+
+
 
 
 
