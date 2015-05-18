@@ -725,7 +725,9 @@ m_Model.m_PlayerHero.V_ModelStyleId = 2;//玩家裸模使用信息
 mini和4s分辨率适配问题
 
 
-
+2015.5.16
+1、按钮的长按 （done）
+2、UI工具函数提取 （持续）
 
 
 
