@@ -807,6 +807,426 @@ skzr-4596-7766-6467
 1、伙伴系统单机逻辑
 2、review 伙伴系统
 
+svn shulu shulu
+禅道
+shulu
+123456 147258
+http://192.168.1.189/zentao/bug-browse-1-unclosed-0-assignedTo_asc-9-20.html
+
+http://bugly.qq.com/detail?app=900015830&pid=2&ii=16#stack
+
+2015/10/21
+//保存阵型
+GameNetHandler.Instance.SendData(cspb.Command.heroChangeCamp, csBody);
+//
+
+2015/10/23
+弄清楚ui布局的结构 down
+
+
+2015/10/24
+商店布局修改
+数据体定义
+
+1、协议联调
+2、资源路径获取
+
+
+2015/10/28
+1、任务系统 联调
+2、商店系统
+3、设置和消息推送
+http://www.xuanyusong.com/archives/2632
+
+art_font_02
+            //#region 舒路   2015/10/29 提交任务进度
+            //if (res.result == 1) 
+            //{
+            //    if (res.difficulty == (int)EStageDifficulty.eNormal) 
+            //    {
+            //        TaskSystemManager.Instance.V_setTaskProsses(TASK_CONDITIONTYPE.MainTask,1,)
+            //    }
+            //    else if (res.difficulty == (int)EStageDifficulty.eHard) 
+            //    {
+
+            //    }
+            //}
+
+            //#endregion
+
+
+
+2015/10/30
+uiFx
+
+http://192.168.1.189/zentao/bug-browse-1-unclosed-0-assignedTo_asc-9-20.html
+
+2015/11/3
+商店、武将、推送
+
+2015/11/4
+好友
+邮箱
+
+http://game.ceeger.com/forum/read.php?tid=17796
+
+Kii Cloud
+494359626@qq.com
+qq123456789
+
+2015/11/7
+
+    public enum TASK_CONDITIONTYPE
+    {
+done        MainTask = 1,//普通关卡通关  
+        HeroTask = 2,//精英通关
+        TryMission = 3,//试炼关卡
+        GVEMission = 4,//GVE关卡
+        StrenghthenEquip = 5,//强化装备次数
+done        UpSkill = 6,//升级技能次数
+        UpSicense = 7,//提升科技次数
+        Lottery = 8,//抽卡
+        Enchantment = 9,//洗练次数
+        EndlessMode = 10,//无尽挑战
+        BOSSChallenge = 11,//成功挑战哈迪斯
+done        UpStar = 12,//提升星级次数（武将突破）
+        UpQulity = 13,//进阶次数（武将进阶）
+        JoinUion = 14,//加入工会
+        JoinAnswer = 15,//参加答题
+        JoinChallenge = 16,//竞技场挑战
+done        GivePower = 17,//赠送体力  
+done        GetGold = 18,//点金手         
+done        BuyPower = 19,//购买体力   
+        ShareTask = 20,//分享任务
+        StrenghthenEquipNum = 1001,//装备的强化等级达到
+done        UpSkillNum = 1002,//技能等级达到  
+        UpScienseNum = 1003,//科技等级达到
+        EnchantmentNum = 1004,//洗练等级
+done        FriendsNum = 1005,//拥有好友   
+done        LevelAchieve = 1006,//等级达到  
+        FightingAchieve = 1007,//战斗力达到
+        ChallengeRank = 1009,//竞技场排名
+done        VIPAchieve = 1011, //VIP等级达到 
+done        HeroNum = 1012, //收集英雄个数  
+done        HeroID = 1013, //收集特定英雄   
+done        HeroStarNum = 1014,//收集星级英雄  
+       //HeroQuqlity = 1015,//英雄品质  
+    }
+
+2015.11.16
+http://git.oschina.net/
+
+
+2015.12.24
+换界面
+2016.1.7
+任务系统重写
+
+
+2016.1.11
+活动签到系统
+
+2016.1.13
+界面跳转系统
+
+2016.1.14
+聊天系统
+
+
+2016.1.23
+私聊优化
+
+1.30
+http://www.taikr.com/article/177
+
+
+2.16
+
+http://skynetdoc.com/book/
+
+2.18
+pvp科技升级界面
+pvp新的协议
+主城
+
+
+3.15
+引导操作：
+        PvPModule module = LayoutMgr.Inst.GetLogicModule<PvPModule>(LayoutName.S_PvPModule);
+        GameObject tempgo = (GameObject)GameObject.Instantiate(module.m_uiCtrl.m_LogBtn);
+        tempgo.transform.parent = this.m_uiCtrl.m_panel.transform;
+        tempgo.transform.localScale = Vector3.one;
+        tempgo.transform.localPosition = Vector3.zero;
+
+        UIEventListener.Get(tempgo).onClick = UIEventListener.Get(module.m_uiCtrl.m_LogBtn).onClick;
+        UIEventListener.Get(tempgo).parameter = UIEventListener.Get(module.m_uiCtrl.m_LogBtn).parameter;
+
+
+2016.3.23
+重做聊天系统
+http://www.52sourcecode.com/forum.php?mod=viewthread&tid=66&extra=
+表情
+http://www.lanrenios.com/ios/Image/2012/1224/658.html
+表情编码替换
+http://www.u3dchina.com/U39376B731.html
+图文混排
+http://blog.gamerisker.com/archives/530.html
+
+2016.3.24
+
+首领
+
+等待对手加入
+
+取消等待
+
+2016.3.28
+1、统计超出view的捐赠条目的数量
+2、公会频道公会数据（图标，总积分，在线/总人数）(服务端公会系统完成后给数据）
+3、捐赠请求（done)
+4、友谊战请求（未完成）
+5、捐赠(普通和稀有卡牌可捐赠数量) （注：数量写死）
+
+
+
+2016.3.31
+
+4阶竞技场可请求卡牌数量：（服务端实时PVP的数据）
+
+10张普通武将，或者1张稀有武将（读表）
+
+2016.4.5
+
+ios打包步骤
+
+1.打开终端，输入svn up client，更新svn
+
+2.进入unity，build setting中点击build开始导出Xcode项目
+
+3.导出完成后，进入文件夹下，点击Unity－iPhone.xcodeproj文件，打开项目
+
+4.打开Xcode后，点击最左列的窗口项（名称为Unity-iPhone），刷新出中间的窗口，点击BuildSettings页签项
+
+5.滚轮下滑看到Code Signing项，Code Signing Identity设置为iPhone Developer:jinxin liu (943W9SD2T7)
+
+（可略）6.继续下滑到Apple LLVM 6.1 - Language - C++项，设置Enable C++ Exceptions和Enable C++ Runtime Types为true
+
+（可略）7.继续设置Apple LLVM 6.1 - Language - Objective C的Enable Objective-C Exceptions为true
+
+（可略）8.切换到Build Phases页签，在Link Binary With Libraries中添加libstdc++.dylib文件
+
+9.看屏幕左上角菜单栏，选择Product->Archive，开始等待编译，10分钟左右
+
+10.点击Export...
+
+11.选择Save for Ad Hoc Deployment选项，点击Next
+
+12.弹出的界面中选择jinxin liu，点击Choose
+
+13.点击Export，重命名ipa，再点击Export
+
+14.点击Finder的ipa目录，就可以看到最新的安装包了！
+
+
+聊天需要修改的地方：
+1、被捐赠满额之后，需要消失，消失按照皇室战争的样子来，
+2、解决不打开聊天面板就不能接到消息的bug
+3、别人捐赠给你之后，你需要接到弹出框通知，只要不是在战斗中或者正在loading战斗界面中， 就可以接收到弹出框，如果是战斗中，则战斗结束接到弹出框，显示谁送你的什么卡片。（朱鸟有效果图，已上传）
+4、聊天的发送消息框没有。
+
+
+2016.4.7
+聊天的配置数据
+1、新手引导（对话引导）
+
+点击MENU按钮进入武将界面
+
+2016.4.11
+1、军令添加恢复倒计时
+2、按钮引导的提示语
+
+...
+聊天增加添加好友的入口
+2016.4.12
+1、武将装备增加品阶
+
+2016.4.4.13
+好友聊天红点
+增加创建聊天列表界面
+
+
+2016.4.21
+个人信息界面
+控制按钮的点击间隔(等待协议返回）
+
+
+2016.4.22
+聊天协议修改
+新手引导协议添加
+武将装备附魔修改
+
+
+2016.5.4
+购买界面修改
+新手引导换阵容
+战斗中气泡
+
+
+
+2016.5.7
+m_CurrentBattleId
+m_CurStageId
+OnHeroArrived
+
+EFightState.eWinHaveHeroSurvive
+
+2016.5.10
+友谊战（好友）
+试练系统
+好友界面修改( 交互逻辑）
+购买金币（抽卡界面 与 购买界面合并）
+新手引导 （流程配置）(打字效果）
+
+2016.5.11
+武将特效
+商店界面修改
+
+试炼界面 技能界面更新 技能详情  商店界面
+
+2015.11.28
+背包bug修改
+
+武将界面技能升级特效
+
+shengmistore
+商店特效
+附魔特效位置不对
+神秘商店的出现动画
+
+2016.5.24
+了解分享功能
+
+2016.5.25
+新手引导修改
+
+签到需要增加红点
+
+
+
+你拥有:[e3ff4b]{0}[-]/{1}
+
+
+2016.5.31
+
+2016.6.12
+图集层次关系
+common 0-10
+mainui 20
+font 30
+
+2016.6.14
+
+            if (cmdID >= 4091 && cmdID <= 4091)
+            {
+                BinaryReader r = new BinaryReader(this.clientNetMsg.m_DataMsg.stream);
+                byte[] messag = new byte[(int)r.BaseStream.Length];
+                int realLen = r.Read(messag, 0, (int)messag.Length);
+                //LuaFramework.ByteBuffer buffer = new LuaFramework.ByteBuffer(messag);
+                //NetworkManager.AddEvent(cmdID, buffer);
+
+                LuaFramework.ByteBuffer newBuffer = new LuaFramework.ByteBuffer();
+                newBuffer.WriteByte((byte)1);
+                newBuffer.WriteBytes(messag); //添加数据
+
+                byte[] message = newBuffer.ToBytes();
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    ms.Position = 0;
+                    BinaryWriter writer = new BinaryWriter(ms);
+                    ushort protocalId = (ushort)cmdID;
+                    ushort msglen = (ushort)(message.Length + 2);
+                    //writer.Write(msglen);
+                    writer.Write(protocalId);
+                    writer.Write(message);
+                    writer.Flush();
+                    byte[] payload = ms.ToArray();
+                    //NetworkManager.AddEvent(cmdID, payload);
+
+                    ByteBuffer buffer2 = new ByteBuffer(payload);
+                    int mainId = buffer2.ReadShort();
+                    NetworkManager.AddEvent(mainId, buffer2);
+                }
+            }
+
+
+2016.6.14
+产生lua pb
+
+
+
+http://www.codeinsect.net/blog/2016/05/26/unity-ipv6-socket-%E6%94%AF%E6%8C%81%EF%BC%8C%E5%B7%B2%E6%B5%8B%E8%AF%95%E9%80%9A%E8%BF%87/
+
+
+2016.6.20 优化
+
+add SearchPath:/storage/sdcard/Android/data/com.uyo.hero/files/luaframework/
+
+shader
+http://blog.csdn.net/admin_jhon/article/details/52356165
+
+
+2016.8.20
+http://www.lxway.com/409814464.htm
+http://blog.csdn.net/u3d_ysj/article/details/4
+
+http://www.luzexi.com/unity3d 优化
+
+http://www.unity.5helpyou.com/3599.html
+
+http://gameframework.cn/contact
+
+http://qiankanglai.me/
+
+c#内存 gc
+http://www.maosongliang.com/archives/285?bsh_bid=1497185676
+
+NGUI优化
+http://gad.qq.com/article/detail/7083468
+
+2016.9.24
+游戏反馈功能
+.....................................
+香港VPN
+47.89.24.208
+uyofunVpn
+UyoFUN@321&123
+......................................
+
+2016.10.10
+
+友谊战结果
+NGUI动静分离
+PVPOL结果界面增加加好友按钮----?
+
+
+神秘商店时间不同步 , 时间同步(倒计时)优化 ----同步服务器时间的时候更新所有CD
+
+
+2016.10.14
+内存优化
+http://blog.csdn.net/u3d_ysj/article/details/48093461
+http://bbs.51cto.com/thread-1379682-1.html
+http://www.manew.com/thread-32980-1-1.html
+http://bbs.9ria.com/thread-288394-1-1.html
+http://blog.jobbole.com/84323/
+
+2016.10.26在公会战的什么阶段?
+
+2016.12.2
+公会战
+
+
+
 
 
 
