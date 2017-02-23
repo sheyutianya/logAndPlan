@@ -1225,7 +1225,124 @@ http://blog.jobbole.com/84323/
 2016.12.2
 公会战
 
+2016.11.22
+公会战战绩提示
+公会战开启气泡提示修改
+捐赠卡牌的规则修改
 
+2016.12.2
+捐卡提示修改 ··
+购买体力动画
+主界面动画 ··
+购买金币、钻石逻辑
+任务界面修改
+
+maxrects算法
+
+2016.12.5
+任务界面动画 
+
+2016.12.8
+--个人信息界面跳转到公会信息面板
+钻石不足弹出购买钻石的界面
+
+任务界面宝箱动画 
+
+2016.12.12
+聊天
+邀请好友
+--新手引导效果修改
+任务红点有bug
+
+2016.12.20
+武将界面逻辑修改
+好友聊天友谊战修改动画
+变灰的时候文字颜色去掉
+神秘商店图标
+
+2016.12.23
+好友界面红点修改
+
+2017.1.3
+邀请好友进度条逻辑问题
+公会战提示逻辑？
+
+UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABL
+
+E_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHO
+
+NE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;
+
+ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNIT
+
+YEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_
+
+CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_C
+
+LOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUD
+
+E_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSI
+
+ON;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MA
+
+P;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_
+
+UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNI
+
+TY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;_FB_Android_;_FB_;AVPROVID
+
+EO_DISABLE_LOGGING;AVPROVIDEO_DISABLE_DEBUG_GUI;
+
+2017.1.4
+技能升级特效
+
+hero_upStar_panel/name_ok$1742450666,确定,確定,Confirm
+多分析实例程序，多阅读反汇编代码
+
+
+2017. 2.9
+http://gslab.qq.com/article-96-1.html (游戏安全实验室)
+
+2017. 2.9 
+夺宝英雄（远征） 排行榜（差数据对接和Item刷新逻辑）
+
+2017.2.14
+C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Unity5.3\Editor;D:\Python27\;D:\Python27\Scripts;C:\windows\system32;C:\windows;C:
+
+\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Windows 
+
+Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\xmake;C:\Program Files 
+
+(x86)\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\IDM Computer Solutions\UltraEdit
+规则
+1.攻克每关可以得到丰厚的金币奖励，通过所有关卡用相应的钥匙打开对应宝箱，丰厚的奖励等这你哟！
+
+2.魔法瓶使用后可回复上阵武将的血量，注意！！！已
+
+阵亡的英雄和未上阵的武将是不能得到回复的哦！
+			
+3.可以去攻克好友的关卡或者使用钥匙偷取好友的宝箱，欺负小朋友奖励会变少的哦，赶快比比谁手快！
+	
+4.钥匙可以通过时间回复获得，利用多余的钥匙快去夺宝把！！！	
+5.活动时间：{0}至{1}。
+
+优化界面网络请求的操作
+
+2017.2.20
+snatch_main_panel/name$492108920,回 复,回 復,Restore
+snatch_main_panel/name$1782177334,信 息,信 息,Info
+snatch_main_panel/name
+
+$1836298037,好 友,好 友,Friends
+snatch_main_panel/name$505269893,排 行,排 行,Ranking
+
+排行榜下拉刷新bug
+
+聊天捐赠。。。
+
+2017.2.23
+网络教程地址
+http://bbs.pediy.com/thread-196176.htm
 
 
 
