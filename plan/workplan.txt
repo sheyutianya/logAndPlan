@@ -1344,7 +1344,97 @@ snatch_main_panel/name$505269893,排 行,排 行,Ranking
 网络教程地址
 http://bbs.pediy.com/thread-196176.htm
 
+2017.2.23
+商店刷新的bug done
 
+2017.2.28
+排行榜显示bug  done
+购买钥匙没有推送钻石 done
+聊天框
+
+2017.3.2
+主界面体力有时候未同步到 --------ios待机会出现
+bugly版本号 done
+
+2017.3.3
+游戏的引导会导致异常吗？ done
+
+公会信息界面关掉的时候回出错？ done
+
+2017.3.7
+引用数据 严格判空 系统操作异常检测
+
+协程 延时处理 考虑未执行情况  
+
+2017.3.9
+确认登录时服务端下发了引导数据 done
+
+2017.3.10
+弹出框的关闭按钮太小
+
+2017.3.14
+对未开启友谊战的好友，发两次友谊战请求，服务器出现不回包 done
+
+2017.3.22
+找 UnityEngine.Transform.FindChild (System.String name) 报空的原因
+
+
+U+1F300-1F5FF U+1F600-1F64F
+http://chromealex.github.io/Unity3d.UI.Windows/
+
+
+2017.3.31
+mysql
+rootpassword:123456
+username:shulu
+userpassword:shulu
+
+2017.4.6
+//IL详解
+http://www.c原理/zery/p/3368460.html
+
+2017.4.7
+Unity 的输出日志控制 5.3支持动态关闭
+
+用elasticsearch做的搜索 爬虫爬的数据先保存到mysql  再加载到elasticsearch
+腾讯云学生机1g内存 1m带宽
+
+2017.4.24
+删掉一些数据表之后，测试原来的程序会不会出错
+测试导出数据的批处理文件
+
+2017.5.8
+引导收集物对话--增加特效
+调整公会界面--打开公共推荐
+
+2017.5.22
+SVN https://192.168.1.189/svn/Hero/branches/jodoBranch
+
+2017.6.1
+定量方法估计因果影响大小, 而定性方法解释了影响产生的机制
+
+2017.6.19
+引导武将排序修改
+
+引导埋点问题
+
+2017.6.27 jodo 测试帐号 shulu004 shulu001 shulu002
+
+npm install -g @angular/cli
+
+2017.7.5
+登录的时候弹出的界面，新手训练营阶段不弹出，如何改
+商店的开启逻辑？
+pvp未开启的界面
+
+
+2017.7.10
+失败界面调整，武将卡牌调整 
+
+pvp未开启界面本地化
+
+
+2017.7.18   ...............http://47.90.53.62:9001/
 
 
 
